@@ -2548,3 +2548,15 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+.image-container {
+	display: flex;
+	
+}
+
+.image-container img {
+	width: 80.33%;
+	margin-right: 600px;
+	border: 1px solid black; /* Border style for each image */
+    border-radius: 5px; /* Rounded corners for each image */
+}
