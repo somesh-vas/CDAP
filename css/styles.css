@@ -2549,14 +2549,29 @@ a:hover.back-to-top {
 }
 /* end of min-width width 1200px */
 
-.image-container {
+.image-cont {
 	display: flex;
 	
 }
 
-.image-container img {
+.image-cont img {
 	width: 80.33%;
 	margin-right: 600px;
 	border: 1px solid black; /* Border style for each image */
     border-radius: 5px; /* Rounded corners for each image */
+}
+
+
+.cdap-team {
+	text-align: center;
+	margin: 0 auto;
+	color: #ffffff;
+  }
+  
+
+  .header_for {
+	text-align: center;
+	
+	color: rgb(0, 0, 0);
+	padding: 10px;
 }
