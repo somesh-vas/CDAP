@@ -52,7 +52,7 @@ body,
 html {
     width: 100%;
 	height: 100%;
-	font-size:medium;
+	font-size:large;
 }
 
 body, p {
@@ -840,6 +840,7 @@ input[type='checkbox'] {
 .aboutHeading {
 	text-align: left;
 	padding: 0 2rem 0.5rem;
+	font-weight: bold;
 	
 }
 .slider-1 {
@@ -1645,7 +1646,7 @@ input[type='checkbox'] {
 	background-color: orange;
 }
 .aboutUs{
-	color: #ffffff;
+	color: #000000;
 	font-weight: 900;
 }
 .about-img{
@@ -1669,12 +1670,63 @@ input[type='checkbox'] {
 	display: flex;
 }
 .odd-left{
-	background-color: #0369a5;
+	background-color: #bdd1ab;
 	font-weight: 800;
 	color: #ffffff;
 	border-radius: 5%;
 
 }
+.card2 {
+	background-color: #dd8a8a;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+
+}
+.card3 {
+	background-color: #6cd963;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+
+}
+.card4 {
+	background-color: #d9c330;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+
+}
+.card5 {
+	background-color: #c4a5d1;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+
+}
+.card6 {
+	background-color: #dd8a8a;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+	
+}
+
+.card7 {
+	background-color: #bdd1ab;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+	
+}
+.card8 {
+	background-color: #6cd963;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+	
+}
+
 .odd-right{
 	display: flex;
 	/* justify-content: center;
@@ -2575,3 +2627,59 @@ a:hover.back-to-top {
 	color: rgb(0, 0, 0);
 	padding: 10px;
 }
+
+
+.study-image {
+    /* Add any desired styles for the image here */
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+  }
+
+
+
+  .p-heading {
+    list-style-type: none;
+  }
+
+  .p-heading li:before {
+    content: "\261e"; /* HTML entity for finger icon */
+    margin-right: 10px;
+  }
+
+
+
+  .p-heading {
+    list-style-type: disc;
+    color: black;
+    padding-left: 20px;
+  }
+
+  .p-heading strong {
+    color: black;
+  }
+
+  #logo {
+	position: absolute;
+	top: 10%;
+	left: 01%;
+	width: 5%;
+	opacity: 1;
+  }
+  .logo-container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	z-index: 9999;
+	opacity: 1;
+  }
+  
+  .logo-container img {
+	max-width: 100px;
+	opacity: 1;
+  }
+
+  h3 {
+	color: black;
+  }
+  
