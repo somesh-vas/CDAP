@@ -2723,3 +2723,7 @@ a:hover.back-to-top {
 .green-icon {
 	color : rgb(3, 255, 3);
 }
+
+.black-icon {
+	color : rgb(0, 0, 0);
+}
