@@ -63,6 +63,16 @@ body, p {
 .p-large {
 	font: 400 1.2rem/1.5rem "Raleway", sans-serif;
 }
+.p-larger {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; */
+	text-align: justify;
+  }
 
 .p-small {
 	font: 400 0.75rem/1.25rem "Raleway", sans-serif;
@@ -1672,26 +1682,26 @@ input[type='checkbox'] {
 .odd-left{
 	background-color: #bdd1ab;
 	font-weight: 800;
-	color: #ffffff;
+	color: #000000;
 	border-radius: 5%;
 
 }
 .card2 {
-	background-color: #dd8a8a;
+	background-color: #f2b5b5;
 	font-weight: 800;
 	color: #000000;
 	border-radius: 5%;
 
 }
 .card3 {
-	background-color: #6cd963;
+	background-color: #aef3a8;
 	font-weight: 800;
 	color: #000000;
 	border-radius: 5%;
 
 }
 .card4 {
-	background-color: #d9c330;
+	background-color: #e9e1ad;
 	font-weight: 800;
 	color: #000000;
 	border-radius: 5%;
@@ -1721,6 +1731,14 @@ input[type='checkbox'] {
 }
 .card8 {
 	background-color: #6cd963;
+	font-weight: 800;
+	color: #000000;
+	border-radius: 5%;
+	
+}
+
+.card9 {
+	background-color: #baf2b5;
 	font-weight: 800;
 	color: #000000;
 	border-radius: 5%;
@@ -2682,4 +2700,14 @@ a:hover.back-to-top {
   h3 {
 	color: black;
   }
+
+  .linkedin-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(linkedin_logo.png) no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+	margin-right: 5px;
+}
   
