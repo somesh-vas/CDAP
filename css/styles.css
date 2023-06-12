@@ -2711,3 +2711,15 @@ a:hover.back-to-top {
 	margin-right: 5px;
 }
   
+.red-icon {
+	color: rgb(255, 255, 255);
+  }
+.blue-icon {
+	color : rgb(32, 76, 234);
+}
+.pink-icon {
+	color : rgb(237, 34, 163);
+}
+.green-icon {
+	color : rgb(3, 255, 3);
+}
