@@ -2728,3 +2728,66 @@ a:hover.back-to-top {
 	color : rgb(0, 0, 0);
 }
 
+
+/* media queries */
+
+@media (max-width: 767px) {
+	/* Styles for screens smaller than 768px (e.g., mobile devices) */
+  
+	/* Adjust the logo image size */
+	.logo-image img {
+	  max-width: 100px;
+	}
+  
+	/* Reduce the font size of the navigation items */
+	.navbar-nav .nav-link h5 {
+	  font-size: 14px;
+	}
+  
+	/* Adjust the font size and spacing of the header content */
+	.header-content h4,
+	.header-content h5 {
+	  font-size: 18px;
+	  line-height: 1.5;
+	  margin-bottom: 10px;
+	}
+  
+	/* Adjust the font size and spacing of the heading in orientations section */
+	#orientations .heading-border h1 {
+	  font-size: 24px;
+	  margin-bottom: 10px;
+	}
+  
+	/* Adjust the font size and spacing of the aboutUs text in orientations section */
+	#orientations .aboutUs {
+	  font-size: 14px;
+	  margin-bottom: 20px;
+	}
+  
+	/* Adjust the font size and spacing of the disclaimer text */
+	.aboutUs small {
+	  font-size: 14px;
+	  margin-bottom: 20px;
+	}
+	#aboutsection {
+		/* Example style */
+		padding: 20px;
+	  }
+	
+	  .col-lg-4 {
+		/* Example style */
+		width: 100%;
+		text-align: center;
+	  }
+	
+	  .col-lg-8 {
+		/* Example style */
+		width: 100%;
+	  }
+	
+	  .p-heading {
+		/* Example style */
+		font-size: 16px;
+	  }
+  }
+  
