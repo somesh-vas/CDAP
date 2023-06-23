@@ -943,7 +943,7 @@ input[type='checkbox'] {
 	background: rgba(255,255,255,.3);
 	z-index: 1;
 	transform: skew(45deg);
-	transition: .5s;
+	transition: 1s;
 }
 
 .img-wrapper:hover:before
