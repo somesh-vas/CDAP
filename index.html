@@ -23,6 +23,7 @@
 
 	
     <link rel="icon" href="image/women-inside-page.svg" type="image/x-icon">
+    
 </head>
 <body data-spy="scroll" data-target=".fixed-top" >    
   
@@ -52,6 +53,7 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
+            
                 <!-- Home tab -->
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#header"><h5>Home </h5><span class="sr-only">(current)</span></a>
@@ -139,6 +141,22 @@
                     <a class="nav-link page-scroll" href="https://disabilityaffairs.gov.in/content/page/rules-regulations.php" target="_blank" ><h5>GOI Rules</h5></a>
                 </li>
                 <!-- end of GOI Rules TAB  -->
+                <!-- Dropdown Menu for Scholarship -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false"><h5>Scholarship</h5></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        
+                        <a class="dropdown-item" href="https://scholarships.gov.in/" target="_blank" ><span class="item-text">NSP</span></a>
+                        
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="https://www.scholarshiplives.com/dorilal-agarwal-scholarship/" target="_blank"><span class="item-text">Scholarshiplives</span></a>
+                        
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="https://scholarshiparena.in/ncpedp-scholarship/" target="_blank"><span class="item-text">NCPEDP</span></a>
+                        
+		            </div>
+                </li>
+                <!-- end of dropdown menu for Scholarship -->
                 <!-- Raise a Complaint Tab -->
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSfrKLHd7Do5KPIuXLJOZPlNZCz0KYhpQ99w2M-vPb-GoNNCHw/viewform" target="_blank"><h5>Concerns/Queries</h5></a>
@@ -185,6 +203,37 @@
     </header> <!-- end of header -->
     <!-- end of header -->
 
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-default shadow border-0" style="background: linear-gradient(226deg, rgb(30 148 153) 0%, rgb(25 195 203) 100%);">
+                    <h7 class="display-3 font-weight-bold text-white" style="font-size: 1.5rem;">Announcement</h7>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card shadow border-0" style="height: auto;">
+                        <p class="lead text-italic" id="notification" style="color: black; font-size: medium; max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-left: 1rem; margin-right: 1rem;">
+                            <span>•</span>
+                            <b><a style="color: black;"><img src="image/new.gif" width="40" height="30"> <u>PG Orientation 2023</u> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDAP session on Tuesday, 25th July 2023 at &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00am-11:30am&nbsp;(Venue : Main Auditorium)</a></b>
+                        </p>
+                    </div>
+                    <div class="card shadow border-0" style="height: auto;">
+                        <p class="lead text-italic" id="notification" style="color: black; font-size: medium; max-height: 350px; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-left: 1rem; margin-right: 1rem;">
+                            <span>•</span>
+                            <b><a style="color: black;"><img src="image/new.gif" width="40" height="30"><u>UG Orientation 2023</u><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDAP session on Saturday, 05th August 2023 at &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00am-10:30am&nbsp;(Venue : Main Auditorium)</a></b>
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal Dialogsomesh Box -->
     
 <!-- ORIENTATION -->
     <div id="orientations" class="cards-1">
@@ -1159,7 +1208,7 @@
                     <!-- Card 3-->
                     <div class="col-lg-4 col-md-4 col-sm-6">
             <div class="img-wrapper">
-                <img src="member_s images/Dr. Anubha.jpg" alt="image of Faculty Member">
+                <img src="member_s images/Anubha.jpg" alt="image of Faculty Member">
                 <h5> Dr. Anubha Goel<br>
                     Faculty, Civil Dept. <br><span><a href="mailto:anubha@iitk.ac.in">anubha@iitk.ac.in</a></span></h5>
 
@@ -1174,7 +1223,7 @@
                     <!-- Card 4-->
                     <div class="col-lg-4 col-md-4 col-sm-6">
             <div class="img-wrapper">
-                <img src="member_s images/Dr. Namrata.jpg" alt="image of Staff Member">
+                <img src="member_s images/Namrata.jpg" alt="image of Staff Member">
                 <h5>Dr. Namrata Singh <br>REO, Chemistry Department<br>
                     (Staff Member, CDAP) <br><span style="text-size:x-small;"><a href="mailto:namratas@iitk.ac.in">namratas@iitk.ac.in</a>
                     </span></h5>
@@ -1282,26 +1331,28 @@
                     </div>                        
                 </div>                    
                 <div class="row">
-
-                <!-- Card 9-->
+                <!-- Card 11-->
                 <div class="col-lg-4 col-md-4 col-sm-6 ">
-                <div class="img-wrapper">
-                <img src="member_s images/GOPAL.jpg" alt="image of chairman">
-                <h5>Gopal Gupta  <br> PhD, Design <br>
-                    <span style="font-size:medium;"><a href="mailto:gopala@iitk.ac.in">gopala@iitk.ac.in</a></span></h5>
+            <div class="img-wrapper">
+                <img src="member_s images\tejas_jain.jpg" alt="image of chairman">
+                <h5>Tejas Jain<br>BT-CHE<br>
+                    <span style="font-size:medium;"><a href="mailto:tejasjain21@iitk.ac.in">tejasjain21@iitk.ac.in</a></span></h5>
                     
+ 
+
 
                     <ul>
-                        <li><a href="mailto:gopala@iitk.ac.in"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li><a href="mailto:tejasjain21@iitk.ac.in"><i class="fa-solid fa-envelope"></i></a></li>
                     </ul>
                 </div>
                 </div>
                 <!-- end of card -->
+               
 
                 <!-- Card 10-->
                 <div class="col-lg-4 col-md-4 col-sm-6 ">
                 <div class="img-wrapper">
-                <img src="member_s images/JATIN.jpg" alt="image of chairman">
+                <img src="member_s images/Jatinn.jpg" alt="image of chairman">
                 <h5> Jatin Chauhan<br>BT-EE <br>
                     <span style="font-size:medium;"><a href="mailto:jatinc20@iitk.ac.in
                         ">jatinc20@iitk.ac.in
@@ -1332,6 +1383,21 @@
                 </div>
                 </div>
                 <!-- end of card -->
+                 <!-- Card 9-->
+                <div class="col-lg-4 col-md-4 col-sm-6 ">
+                <div class="img-wrapper">
+                <img src="member_s images/GOPAL.jpg" alt="image of chairman">
+                <h5>Gopal Gupta  <br> PhD, Design <br>
+                    <span style="font-size:medium;"><a href="mailto:gopala@iitk.ac.in">gopala@iitk.ac.in</a></span></h5>
+                    
+
+                    <ul>
+                        <li><a href="mailto:gopala@iitk.ac.in"><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+                <!-- end of card -->
+                
                 </div>                 
             </div>
         </div> <!-- end of col -->
@@ -1500,6 +1566,11 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script>
+        $(document).ready(function() {
+            $('#mModal').modal('show');
+        });
+    </script>
     
 </body>
 </html>
